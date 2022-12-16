@@ -1,1 +1,1 @@
-# Stock-Discord-Bot
+# StockX-Discord-Bot
