@@ -7,13 +7,18 @@ intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
 
+@client.event
+async def on_ready():
+    channel = client.get_channel(CHANNEL)
+    boot_msg = discord.Embed(title='Connected', description='command:\ncheck <kw/id/sku>', color=discord.Color.green())
+    boot_msg.set_footer(text='Github: anastar99')
+    await channel.send(embed=boot_msg)
 # ?check <id>
 @client.event
-
 async def on_message(message):
+    channel = client.get_channel(CHANNEL)
 
     user_message = str(message.content)
-    channel = client.get_channel(CHANNEL)
 
     if message.author == client.user:
         return
