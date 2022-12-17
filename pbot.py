@@ -3,12 +3,22 @@ from scraper import Shovel
 from shhhh import TOKEN, CHANNEL
 
 
-client = discord.Client()
+intents = discord.Intents.default()
+intents.message_content = True
+client = discord.Client(intents=intents)
 
-
+# ?check <id>
 @client.event
 
 async def on_message(message):
 
-    pass
+    user_message = str(message.content)
+
+    if message.author == client.user:
+        return
+
+    print(user_message[0:6], user_message[7::])
+    if user_message[0:6] == '?check':
+
+        await message.channel.send(embed=Shovel(user_message[7::]).gogo())
 client.run(TOKEN)
