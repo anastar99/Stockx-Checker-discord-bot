@@ -14,4 +14,8 @@ Give it a Sku/ID and it will search stockx for it and return data from stockx on
 
 
 
-![image](https://user-images.githubusercontent.com/92560533/208227066-cb222c34-f009-42f0-9836-c8654e909f3a.png)
+
+
+
+https://user-images.githubusercontent.com/92560533/208227080-b0e2e593-d20b-4d83-8510-d465241bfbcc.mp4
+
