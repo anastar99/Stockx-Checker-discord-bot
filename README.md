@@ -19,3 +19,5 @@ Give it a Sku/ID and it will search stockx for it and return data from stockx on
 
 https://user-images.githubusercontent.com/92560533/208227080-b0e2e593-d20b-4d83-8510-d465241bfbcc.mp4
 
+# To Come
+- item release date
