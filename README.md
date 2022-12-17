@@ -12,7 +12,7 @@ Give it a Sku/ID and it will search stockx for it and return data from stockx on
 - Clone repository
 - Install requirements in requirements.txt (for the sake of avodiding any complications just download the versions in the file but any new versions should work fine)
 - Put your TOKEN and CHANNEL id in ```shhh.py```
-- Run ```pbot.py``
+- Run ```pbot.py```
 
 
 # EXAMPLE
