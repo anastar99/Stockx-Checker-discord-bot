@@ -1,4 +1,4 @@
-# StockX-Helper
+# StockX-Bot
 
 Give it a Sku/ID and it will search stockx for it and return data from stockx on it (can also give it keywords and it will display the first item it finds)
 
