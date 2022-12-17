@@ -4,7 +4,9 @@ Give it a Sku/ID and it will search stockx for it and return data from stockx on
 
 # Command
 
-```?check 'number'```
+```python
+?check 'number'
+```
 
 # SETUP
 
