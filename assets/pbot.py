@@ -13,12 +13,13 @@ client = discord.Client(intents=intents)
 async def on_message(message):
 
     user_message = str(message.content)
+    channel = client.get_channel(CHANNEL)
 
     if message.author == client.user:
         return
 
-    print(user_message[0:6], user_message[7::])
+    #print(user_message[0:6], user_message[7::])
     if user_message[0:6] == '?check':
 
-        await message.channel.send(embed=Shovel(user_message[7::]).gogo())
+        await channel.send(embed=Shovel(user_message[7::]).gogo())
 client.run(TOKEN)
